@@ -34,7 +34,6 @@ const Hacking = () => {
           <li><a href="https://enfinlay.github.io/bugbounty/2020/08/15/so-you-wanna-hack.html">Guide for Beginners by P4nda</a></li>
           <li><a href="https://www.notion.so/c3ad240504bb448d8ca3c1ad4008cb4a?v=1b10e1a200084b4eaf1fea9479c03d7f&p=cc478dd74b8847cf9f779574c5b6d30b">Helpful for newbs</a></li>
           <li><a href="https://www.hackingtutorials.org/">Hacking tutorials</a></li>
-          <li><a href="http://hackerstipandtrick.blogspot.com/">Hacking Tips and Tricks</a></li>
           <li><a href="https://dev.to/pirateducky/hacking-on-a-budget-270d">Hacking on a Budget</a></li>
         </ul>
       </div>
