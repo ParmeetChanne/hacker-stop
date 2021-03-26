@@ -5,7 +5,7 @@ const Writeups = () => {
     <div className="Writeups" id='links'>
       <h1>Writeups</h1>
       <br></br>
-      <p>Latest Writeups to stay updated on new methodologies and vulnerabilities</p>
+      <p>Latest Writeups to stay updated on new methodologies and vulnerabilities (Updated daily)</p>
       <br></br>
       <p>For older writeups refer <a href="https://github.com/devanshbatham/Awesome-Bugbounty-Writeups" style={{ color: '#15cdfc' }}>this</a></p>
       <br></br>
