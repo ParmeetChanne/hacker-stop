@@ -28,7 +28,10 @@ const Hacking = () => {
         <br></br>
         <ul>
           <li><a href="https://www.softwaretestinghelp.com/computer-networking-basics/">Essential Networking concepts for Hacking</a></li>
+          <li><a href="https://www.tutorialspoint.com/web_developers_guide/web_basic_concepts.htm">Basic Web Concepts</a></li>
           <li><a href="https://github.com/Hack-with-Github/Awesome-Hacking">Awesome-Hacking Github Repository</a></li>
+          <li><a href="https://github.com/fabionoth/awesome-cyber-security">Awesome-CyberSecurity Github Repository</a></li>
+          <li><a href="https://github.com/scspcommunity/Cyber-Sec-Resources">CyberSecurity Resources by scspcommunity</a></li>
           <li><a href="https://null-byte.wonderhowto.com/">Null Byte's Articles on Hacking</a></li>
           <li><a href="https://jhalon.github.io/becoming-a-pentester/">An Extensive Guide for Becoming a Pentester</a></li>
           <li><a href="https://enfinlay.github.io/bugbounty/2020/08/15/so-you-wanna-hack.html">Guide for Beginners by P4nda</a></li>
@@ -39,10 +42,14 @@ const Hacking = () => {
       </div>
       <br></br>
       <div>
-        <h2>You learn PRACTICALLY: </h2>
+        <h2>You learn PRACTICALLY</h2>
         <br></br>
         <ul>
           <li><a href="https://portswigger.net/web-security/dashboard">Portswigger's Web Security</a></li>
+          <li><a href="https://github.com/OWASP/SecurityShepherd">Security Shepherd</a></li>
+          <li><a href="https://github.com/digininja/DVWA">Damn Vulnerable Web Application</a></li>
+          <li><a href="https://sourceforge.net/projects/owaspbwa/files/1.2/">Owasp Broken Web Application Project</a></li>
+          <li><a href="https://github.com/WebGoat/WebGoat">Owasp Webgoat</a></li>
           <li><a href="https://overthewire.org/wargames/">OverTheWire Wargames</a></li>
           <li><a href="https://www.hackthebox.eu/">Hack the Box</a></li>
           <li><a href="https://hackthissite.org/">Hack This Site</a></li>
@@ -53,7 +60,7 @@ const Hacking = () => {
       </div>
       <br></br>
       <div>
-        <h2>Books and other stuff: </h2>
+        <h2>Books</h2>
         <br></br>
         <ul>
           <li><a href="https://www.hackerone.com/blog/Hack-Learn-Earn-with-a-Free-E-Book">Web Hacking 101</a></li>
@@ -62,6 +69,8 @@ const Hacking = () => {
           <li><a href="https://www.amazon.com/Hacking-Art-Exploitation-Jon-Erickson/dp/1593271441">Hacking: The Art of Exploitation</a></li>
           <li><a href="https://www.amazon.com/Hacker-Playbook-Practical-Penetration-Testing-ebook/dp/B01072WJZE/">Hacker's Playbook 2 and 3</a></li>
           <li><a href="https://www.amazon.com/Web-Application-Hackers-Handbook-Exploiting/dp/1118026470/">Web Application Hacker's Handook 2</a></li>
+          <li><a href="https://www.amazon.com/Ghost-in-Wires-audiobook/dp/B005HBO3BY/">Ghost in the wires</a></li>
+          <li><a href="https://www.amazon.com/Art-Deception-Controlling-Element-Security/dp/B08C3849FL/">The Art of Deception</a></li>
           <li><a href="https://www.amazon.com/Hacking-Ethical-Hackers-Handbook-Fourth/dp/0071832386/">Gray Hat Hacking</a></li>
         </ul>
       </div>
@@ -75,6 +84,21 @@ const Hacking = () => {
           <li><a href="https://cyware.com/hacker-news">Cyware</a></li>
           <li><a href="https://latesthackingnews.com/">LatestHackingNews</a></li>
           <li><a href="https://www.wired.com/tag/hacking/">Wired</a></li>
+        </ul>
+      </div>
+      <br></br>
+      <div>
+        <h2>Vulnerability Databases</h2>
+        <br></br>
+        <p>List of resources containing known list of exploits and common vulnerabilities found in softwares, OS, Mobile applications, CMS etc.</p>
+        <br></br>
+        <ul>
+          <li><a href="https://cve.mitre.org/">Common Vulnerabilities and Exposures (CVE)</a></li>
+          <li><a href="https://www.exploit-db.com/">Exploit DB</a></li>
+          <li><a href="https://seclists.org/fulldisclosure/">Full Disclosure</a></li>
+          <li><a href="https://nvd.nist.gov/">National Vulnerability Database</a></li>
+          <li><a href="https://www.vulnerability-lab.com/">Vulnerability Lab</a></li>
+          <li><a href="https://www.zerodayinitiative.com/advisories/published/">Zero Day Initiative</a></li>
         </ul>
       </div>
     </div>

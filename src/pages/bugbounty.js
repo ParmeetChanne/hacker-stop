@@ -144,6 +144,7 @@ const BugBounty = () => {
           <li><a href="https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters/blob/master/assets/tools.md">Tools by Nahamsec</a></li>
           <li><a href="https://github.com/gwen001/pentest-tools">Pentest Tools by Gwen001</a></li>
           <li><a href="https://www.hackerone.com/blog/100-hacking-tools-and-resources">100 Hacking Tools by HackerOne</a></li>
+          <li><a href="https://thexssrat.podia.com/ratatatata">Practice labs</a></li>
           <li><a href="https://github.com/heilla/SecurityTesting/blob/master/HuntingCheckList.md">Bug Bounty Checklist</a></li>
           <li><a href="https://github.com/djadmin/awesome-bug-bounty">Awesome Bug Bounty</a></li>
           <li><a href="https://github.com/EdOverflow/bugbounty-cheatsheet">Bug Bounty Cheatsheet by EdOverflow</a></li>
