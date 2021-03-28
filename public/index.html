@@ -24,11 +24,209 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
   <title>HACKERSTOP</title>
+
+  <style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+    * {
+      font-family: 'Sora', sans-serif;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: black;
+    }
+
+    h2 {
+      color: #15cdfc;
+    }
+
+    h3 {
+      color: lightslategrey;
+    }
+
+    .Home {
+      justify-content: center;
+      align-items: center;
+      color: White;
+      font-size: 25px;
+      text-align: center;
+    }
+
+    .Home h1 {
+      margin-top: 25vh;
+      margin-bottom: 2.5vh;
+      color: #15cdfc;
+
+      letter-spacing: 1px;
+      animation: text 3s 1;
+    }
+
+    .Home p {
+      padding: 0;
+      margin: 0;
+      color: white;
+    }
+
+    .Upcoming {
+      margin-top: 150px;
+      font-size: 15px;
+      color: gray;
+      text-align: center
+    }
+
+    @keyframes text {
+      0% {
+        color: black;
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 100%);
+      }
+
+      30% {
+        letter-spacing: 25px;
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 100%);
+      }
+
+      85% {
+        letter-spacing: 1px;
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 100%);
+      }
+    }
+
+    .Home h4 {
+      color: #15cdfc;
+    }
+
+    h4::before {
+      content: '';
+      animation: animate infinite 5.5s;
+    }
+
+    @keyframes animate {
+      0% {
+        content: 'Cybersecurity';
+      }
+
+      33% {
+        content: 'Hacking';
+      }
+
+      66% {
+        content: 'BugBounty';
+      }
+
+      100% {
+        content: 'OSCP';
+      }
+    }
+
+    /* Link Design */
+
+    #links {
+      max-width: 675px;
+      width: auto;
+      display: block;
+      margin: 27px auto;
+    }
+
+    li {
+      display: block;
+      background-color: #1C1C1C;
+      color: #1C1C1C;
+      text-align: center;
+      margin-bottom: 10px;
+      padding: 17px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: all .25s cubic-bezier(.1, .69, .29, .99);
+      border: solid black 4px;
+    }
+
+    li:hover {
+      background-color: #080808;
+      color: #E6E6E6;
+    }
+
+    li:hover a {
+      color: #15cdfc;
+    }
+
+    /* Hacking Page */
+
+    .Hacking {
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    /* OSCP Page */
+
+    .OSCP {
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+
+    /* BugBounty Page */
+
+    .BugBounty {
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+
+    /* Creators Page */
+
+    .Creators {
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+
+    /* Writeups Page */
+
+    .Writeups {
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+  </style>
 </head>
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
+
+  <script>
+    <Navbar />
+  </script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('worker.js').then(function (registration) {
+          console.log('Worker registration successful', registration.scope);
+        }, function (err) {
+          console.log('Worker registration failed', err);
+        }).catch(function (err) {
+          console.log(err);
+        });
+      });
+    } else {
+      console.log('Service Worker is not supported by browser.');
+    }
+  </script>
   <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
