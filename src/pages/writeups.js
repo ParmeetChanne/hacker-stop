@@ -11,6 +11,16 @@ const Writeups = () => {
       <br></br>
       <div>
         <ul>
+          <li><a href="https://sefoo.medium.com/how-to-find-mass-html-injection-xss-easy-way-89ba82c23e33">How to find mass Html Injection & XSS ( easy way )</a></li>
+          <li><a href="https://beefaaubee.medium.com/tales-from-a-failed-bug-bounty-hunter-b33f6b42bcc6">Tales from a failed bug hunter</a></li>
+          <li><a href="https://0xjin.medium.com/bug-bounty-story-of-a-not-applicable-sql-injection-worth-15-000-ed4bd3b2f09c">Bug Bounty: Story of a Not Applicable SQL Injection worth 15,000$</a></li>
+          <li><a href="https://melotover.medium.com/how-i-leveraged-xss-to-make-privilege-escalation-to-be-super-admin-e120b6090451">How I leveraged XSS to make Privilege Escalation to be Super Admin!</a></li>
+          <li><a href="https://3bodymo.medium.com/bypass-rate-limit-to-enumeration-users-through-google-drive-ed64e07c879c">Bypass rate limit to enumeration users through Google Drive</a></li>
+          <li><a href="https://medium.com/dsc-sastra-deemed-to-be-university/dom-clobbering-177e85c12dcf">DOM Clobbering</a></li>
+          <li><a href="https://cirius.medium.com/exploiting-a-hidden-and-forgotten-bug-49ce7ad4de39">Exploiting a hidden and forgotten Bug</a></li>
+          <li><a href="https://ahmdhalabi.medium.com/finding-hidden-login-endpoint-exposing-secret-client-id-88c3c2a1af45">Finding Hidden Login Endpoint Exposing Secret `Client ID`</a></li>
+          <li><a href="https://mayank-01.medium.com/an-interesting-account-takeover-3a33f42d609d">An Interesting Account Takeover!!</a></li>
+          <li><a href="https://obheda12.medium.com/gitdorker-a-new-tool-for-manual-github-dorking-and-easy-bug-bounty-wins-92a0a0a6b8d5">GitDorker — A Better Tool to Perform GitHub Dorks and Snag Easy Bug Bounty Wins</a></li>
           <li><a href="https://vedanttekale20.medium.com/spend-more-time-doing-recon-youll-get-more-bugs-e7ffd5bf9202">Spend more time doing recon</a></li>
           <li><a href="https://infosecwriteups.com/increasing-xss-impact-using-xsscope-879669e6ba78">Increasing XSS Impact using xsscope</a></li>
           <li><a href="https://3bodymo.medium.com/the-easiest-2500-i-got-it-from-bug-bounty-program-8f47ea4aff22">Easiest 2500 I got from bug bounty</a></li>
@@ -21,7 +31,7 @@ const Writeups = () => {
           <li><a href="https://ashutoshmishra00x0.medium.com/account-takeover-via-response-manipulation-worth-1800-ffb242cc55c9">Account takeover via response manipulation worth 1800</a></li>
           <li><a href="https://medium.com/@dPhoeniixx/tiktok-for-android-1-click-rce-240266e78105">Tiktok for android 1-click rce</a></li>
           <li><a href="https://infosecwriteups.com/how-i-found-blind-xss-on-flipkart-6b22199f3496">How I found blind xss on flipkart</a></li>
-          <li><a href="https://ahmadaabdulla.medium.com/how-i-found-sql-injection-on-8x8-cengage-comodo-automattic-20-company-c296d1a09f63">How I founf sqli on 8x8 cengage comodo automattic 20 company</a></li>
+          <li><a href="https://ahmadaabdulla.medium.com/how-i-found-sql-injection-on-8x8-cengage-comodo-automattic-20-company-c296d1a09f63">How I found sqli on 8x8 cengage comodo automattic 20 company</a></li>
           <li><a href="https://ruvlol.medium.com/1000-for-open-redirect-via-unknown-technique-675f5815e38a">1000 for open redirect via unknown technique</a></li>
           <li><a href="https://medium.com/techiepedia/account-takeover-by-otp-bypass-7e6d1b2eb3a3">Account takeover by otp bypass</a></li>
           <li><a href="https://blog.shiftleft.io/scanning-for-secrets-in-source-code-9fcb486f8c0e">Scanning for secrets in source code</a></li>
