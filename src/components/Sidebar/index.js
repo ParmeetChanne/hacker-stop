@@ -14,6 +14,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                     <SidebarRoute to="/oscp">OSCP</SidebarRoute>
                     <SidebarRoute to="/writeups">Writeups</SidebarRoute>
                     <SidebarRoute to="/creators">Creators</SidebarRoute>
+                    <SidebarRoute to="/mobilepentesting">Mobile Pentesting</SidebarRoute>
                 </SidebarMenu>
             </SidebarWrapper>
         </SidebarContainer>
