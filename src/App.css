@@ -168,5 +168,12 @@ a {
   text-align: center;
 }
 
-/* NotFound Page */
+/* mobile Pentesting Page */
+
+.mobilePentesting {
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
 

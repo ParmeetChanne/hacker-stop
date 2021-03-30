@@ -30,6 +30,9 @@ const Navbar = ({ toggle }) => {
           <NavLink to='/creators' activeStyle>
             Creators
           </NavLink>
+          <NavLink to='/mobilepentesting' activeStyle>
+            Mobile Pentesting
+          </NavLink>
         </NavMenu>
       </Nav>
     </>

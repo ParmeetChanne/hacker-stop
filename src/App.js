@@ -10,6 +10,7 @@ import OSCP from './pages/oscp';
 import Writeups from './pages/writeups';
 import Creators from './pages/creators';
 import NotFound from './pages/404'
+import mobilePentesting from './pages/mobilepentesting'
 
 function App() {
   const [isOpen, setIsOpen] = useState(false)
@@ -29,6 +30,7 @@ function App() {
         <Route path='/oscp' component={OSCP} />
         <Route path='/writeups' component={Writeups} />
         <Route path='/creators' component={Creators} />
+        <Route path='/mobilepentesting' component={mobilePentesting} />
         <Route path='*' component={NotFound} />
       </Switch>
     </Router>
