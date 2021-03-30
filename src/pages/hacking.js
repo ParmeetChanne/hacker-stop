@@ -31,7 +31,6 @@ const Hacking = () => {
           <li><a href="https://www.tutorialspoint.com/web_developers_guide/web_basic_concepts.htm">Basic Web Concepts</a></li>
           <li><a href="https://github.com/Hack-with-Github/Awesome-Hacking">Awesome-Hacking Github Repository</a></li>
           <li><a href="https://github.com/fabionoth/awesome-cyber-security">Awesome-CyberSecurity Github Repository</a></li>
-          <li><a href="https://github.com/scspcommunity/Cyber-Sec-Resources">CyberSecurity Resources by scspcommunity</a></li>
           <li><a href="https://null-byte.wonderhowto.com/">Null Byte's Articles on Hacking</a></li>
           <li><a href="https://jhalon.github.io/becoming-a-pentester/">An Extensive Guide for Becoming a Pentester</a></li>
           <li><a href="https://enfinlay.github.io/bugbounty/2020/08/15/so-you-wanna-hack.html">Guide for Beginners by P4nda</a></li>
