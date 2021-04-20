@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color:black;
+  background-color:#030303;
 }
 
 h2 {
@@ -16,13 +16,13 @@ h2 {
 }
 
 h3 {
-  color:lightslategrey;
+  color: #818384;
 }
 
 .Home {
   justify-content: center;
   align-items: center;
-  color: White;
+  color: #D7DADC;
   font-size: 25px;
   text-align: center;
 }
@@ -31,6 +31,8 @@ h3 {
   margin-top: 25vh;
   margin-bottom: 2.5vh;
   color: #15cdfc;
+  padding-left: 7px;
+  padding-right: 7px;
 
   letter-spacing: 1px;
   animation: text 3s 1;
@@ -39,14 +41,16 @@ h3 {
 .Home p {
   padding: 0;
   margin: 0;
-  color: white;
+  color: #D7DADC;
 }
 
 .Upcoming {
   margin-top: 150px;
   font-size: 15px;
-  color: gray;
-  text-align: center
+  color: #818384;
+  text-align: center;
+  padding-left: 7px;
+  padding-right: 7px;
 }
 
 @keyframes text {
@@ -99,8 +103,8 @@ h4::before{
 
 li {
   display: block;
-  background-color: #1C1C1C;
-  color: #1C1C1C;
+  background-color: #19191b;/*#13191f;*//*#151A21;*/
+  color: #141416;
   text-align: center;
   margin-bottom: 5px;
   padding: 17px;
@@ -127,14 +131,14 @@ li:hover a{
 .Hacking {
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #D7DADC;
   text-align: center;
   padding-left: 6px;
   padding-right: 6px;
 }
 
 a {
-  color: white;
+  color: #D7DADC;
   text-decoration: none;
 }
 
@@ -143,7 +147,7 @@ a {
 .OSCP {
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #D7DADC;
   text-align: center;
   padding-left: 6px;
   padding-right: 6px;
@@ -154,7 +158,7 @@ a {
 .BugBounty {
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #D7DADC;
   text-align: center;
   padding-left: 6px;
   padding-right: 6px;
@@ -165,7 +169,7 @@ a {
 .Creators {
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #D7DADC;
   text-align: center;
   padding-left: 6px;
   padding-right: 6px;
@@ -176,7 +180,7 @@ a {
 .Writeups {
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #D7DADC;
   text-align: center;
   padding-left: 6px;
   padding-right: 6px;
@@ -187,7 +191,7 @@ a {
 .mobilePentesting {
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #D7DADC;
   text-align: center;
   padding-left: 6px;
   padding-right: 6px;
