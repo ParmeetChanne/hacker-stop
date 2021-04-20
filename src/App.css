@@ -94,6 +94,7 @@ h4::before{
   width: auto;
   display: block;
   margin: 27px auto;
+  
 }
 
 li {
@@ -101,12 +102,15 @@ li {
   background-color: #1C1C1C;
   color: #1C1C1C;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   padding: 17px;
   text-decoration: none;
   font-size: 1.1rem;
   transition: all .25s cubic-bezier(.1,.69,.29,.99);
   border: solid black 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
 }
 
 li:hover{
@@ -125,6 +129,8 @@ li:hover a{
   align-items: center;
   color: white;
   text-align: center;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 a {
@@ -139,6 +145,8 @@ a {
   align-items: center;
   color: white;
   text-align: center;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 /* BugBounty Page */
@@ -148,6 +156,8 @@ a {
   align-items: center;
   color: white;
   text-align: center;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 /* Creators Page */
@@ -157,6 +167,8 @@ a {
   align-items: center;
   color: white;
   text-align: center;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 /* Writeups Page */
@@ -166,6 +178,8 @@ a {
   align-items: center;
   color: white;
   text-align: center;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 /* mobile Pentesting Page */
@@ -175,5 +189,7 @@ a {
   align-items: center;
   color: white;
   text-align: center;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
