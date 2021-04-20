@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
 
 * {
-  font-family: 'Sora', sans-serif;
+  font-family: "Sora", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-color:#030303;
+  background-color: #030303;
 }
 
 h2 {
@@ -22,12 +22,12 @@ h3 {
 .Home {
   justify-content: center;
   align-items: center;
-  color: #D7DADC;
+  color: #d7dadc;
   font-size: 25px;
   text-align: center;
 }
 
-.Home h1{
+.Home h1 {
   margin-top: 25vh;
   margin-bottom: 2.5vh;
   color: #15cdfc;
@@ -41,7 +41,7 @@ h3 {
 .Home p {
   padding: 0;
   margin: 0;
-  color: #D7DADC;
+  color: #d7dadc;
 }
 
 .Upcoming {
@@ -54,17 +54,29 @@ h3 {
 }
 
 @keyframes text {
-  0%{
+  0% {
     color: black;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(0, 212, 255, 1) 100%
+    );
   }
   30% {
     letter-spacing: 25px;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(0, 212, 255, 1) 100%
+    );
   }
   85% {
     letter-spacing: 1px;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(0, 212, 255, 1) 100%
+    );
   }
 }
 
@@ -72,22 +84,22 @@ h3 {
   color: #15cdfc;
 }
 
-h4::before{
-  content: '';
+h4::before {
+  content: "";
   animation: animate infinite 5.5s;
 }
-@keyframes animate{
-  0%{
-    content: 'Cybersecurity';
+@keyframes animate {
+  0% {
+    content: "Cybersecurity";
   }
-  33%{
-    content: 'Hacking';
+  33% {
+    content: "Hacking";
   }
-  66%{
-    content: 'BugBounty';
+  66% {
+    content: "BugBounty";
   }
-  100%{
-    content: 'OSCP';
+  100% {
+    content: "OSCP";
   }
 }
 
@@ -98,31 +110,30 @@ h4::before{
   width: auto;
   display: block;
   margin: 27px auto;
-  
 }
 
 li {
   display: block;
-  background-color: #19191b;/*#13191f;*//*#151A21;*/
+  background-color: #131316; /*#13191f;*/ /*#151A21;*/
   color: #141416;
   text-align: center;
   margin-bottom: 5px;
   padding: 17px;
   text-decoration: none;
   font-size: 1.1rem;
-  transition: all .25s cubic-bezier(.1,.69,.29,.99);
+  transition: all 0.25s cubic-bezier(0.1, 0.69, 0.29, 0.99);
   border: solid black 4px;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 10px;
 }
 
-li:hover{
-    background-color: #080808;
-    color: #E6E6E6;
+li:hover {
+  background-color: #080808;
+  color: #e6e6e6;
 }
 
-li:hover a{
+li:hover a {
   color: #15cdfc;
 }
 
@@ -131,14 +142,14 @@ li:hover a{
 .Hacking {
   justify-content: center;
   align-items: center;
-  color: #D7DADC;
+  color: #d7dadc;
   text-align: center;
   padding-left: 6px;
   padding-right: 6px;
 }
 
 a {
-  color: #D7DADC;
+  color: #d7dadc;
   text-decoration: none;
 }
 
@@ -147,7 +158,7 @@ a {
 .OSCP {
   justify-content: center;
   align-items: center;
-  color: #D7DADC;
+  color: #d7dadc;
   text-align: center;
   padding-left: 6px;
   padding-right: 6px;
@@ -158,7 +169,7 @@ a {
 .BugBounty {
   justify-content: center;
   align-items: center;
-  color: #D7DADC;
+  color: #d7dadc;
   text-align: center;
   padding-left: 6px;
   padding-right: 6px;
@@ -169,7 +180,7 @@ a {
 .Creators {
   justify-content: center;
   align-items: center;
-  color: #D7DADC;
+  color: #d7dadc;
   text-align: center;
   padding-left: 6px;
   padding-right: 6px;
@@ -180,7 +191,7 @@ a {
 .Writeups {
   justify-content: center;
   align-items: center;
-  color: #D7DADC;
+  color: #d7dadc;
   text-align: center;
   padding-left: 6px;
   padding-right: 6px;
@@ -191,9 +202,8 @@ a {
 .mobilePentesting {
   justify-content: center;
   align-items: center;
-  color: #D7DADC;
+  color: #d7dadc;
   text-align: center;
   padding-left: 6px;
   padding-right: 6px;
 }
-
